@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes - DOM + LocalStorage</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; padding: 24px; max-width: 700px; margin: 0 auto; }
+    .row { display: flex; gap: 8px; margin: 12px 0; }
+    input { flex: 1; padding: 10px; }
+    button { padding: 10px 12px; cursor: pointer; }
+    ul { padding-left: 18px; }
+    li { margin: 8px 0; display: flex; align-items: center; gap: 10px; }
+    .note-text { flex: 1; }
+    .hint { color: #444; }
+    .error { color: #b00020; margin-top: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Mini Notes App</h1>
+  <p class="hint">Type a note and click <strong>Add</strong>. You can remove notes and they will persist after refresh.</p>
+
+  <div class="row">
+    <input id="noteInput" type="text" placeholder="Write a note..." />
+    <button id="addBtn" type="button">Add</button>
+  </div>
+
+  <p id="msg" class="error" aria-live="polite"></p>
+
+  <ul id="notesList"></ul>
+
+  <script src="./app.js"></script>
+</body>
+</html>
