@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "331d",
+      "name": "manzana",
+      "price": 20
+    },
+    {
+      "id": "71ee",
+      "name": "uva",
+      "price": 40
+    },
+    {
+      "id": "5ac0",
+      "name": "mamoncillo",
+      "price": 5
+    },
+    {
+      "id": "f7a7",
+      "name": "pera",
+      "price": 34
+    }
+  ]
+}
